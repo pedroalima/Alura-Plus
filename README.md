@@ -1,6 +1,6 @@
-# aluraplus
+# Alura Plus
 
-<p align="center"> <img src="https://imgur.com/BASzVop.png" alt="HTML e CSS: praticando HTML e CSS" width=600px height=180> </p>
+<p align="center"> <img src="https://imgur.com/BASzVop.png" alt="HTML e CSS: praticando HTML e CSS"> </p>
 
 <hr>
 
@@ -13,3 +13,7 @@
 
 ## Screenshots
 ![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+<img src="img/section 2.png">
+<img src="img/section 3.png">
+<img src="img/section 4.png">
+<img src="img/section 5.png">
