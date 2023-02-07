@@ -113,6 +113,7 @@ body {
 .lista__itens {
     font-size: 32px;
     color: var(--branco-principal);
+    padding: 1em;
 }
 
 footer {
@@ -120,7 +121,7 @@ footer {
     margin: 5em 3em;
 }
 .footer__logo {
-    margin: 1em;
+    margin: 2em;
 }
 .footer__lista {
     display: flex;
@@ -128,7 +129,8 @@ footer {
     list-style-type: none;
 }
 .footer__itens {
-    margin: 1em;
+    padding: 0.4em;
+    margin: 2em 0;
 }
 .footer__itens a {
     text-decoration: none;
@@ -144,4 +146,49 @@ footer {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+    .container__imagem {
+        width: 50vw;
+    }
+    .container__caixa {
+        margin: 2em;
+    }
+    .secundario {
+        margin: 2em;
+        text-align: center;
+    }
+    .secundario__imagem {
+        width: 70vw;
+    }
+
+    .ultima {
+        text-align: center;
+    }
+    .ultima__lista {
+        display: block;
+    }
+    .lista__itens {
+        padding: 0;
+        margin: 0;
+    }
+    .compatibilidade__descricao {
+        font-size: 28px;
+    }
+
+    footer {
+        margin: 2em;
+    }
+    .footer__lista {
+        display: block;
+    }
+    .footer__itens {
+        margin: 1em;
+        padding: 0;
+    }
 }
