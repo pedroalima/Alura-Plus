@@ -43,6 +43,11 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: #4998f8;
+    color: #00030C;
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
@@ -89,6 +94,10 @@ body {
     display: inline-block;
     margin: 1em 0;
 }
+.botao__secundario:hover {
+    background-color: #4998f8;
+    color: #00030C;
+}
 
 .ultima {
     text-align: center;
@@ -122,6 +131,12 @@ footer {
 .footer__itens a {
     text-decoration: none;
     color: var(--branco-principal);
+}
+.footer__itens a:hover {
+    color: var(--botao-azul);
+}
+.footer__itens a:active {
+    color: #4998f8;
 }
 .footer__descricao {
     margin: 1em 0;
